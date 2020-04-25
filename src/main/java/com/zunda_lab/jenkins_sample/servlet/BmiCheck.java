@@ -67,5 +67,4 @@ public class BmiCheck  extends HttpServlet {
         RequestDispatcher dispatcher = req.getRequestDispatcher("/result.jsp");
         dispatcher.forward(req, res);
     }
-
 }
